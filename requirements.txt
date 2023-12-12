@@ -1,0 +1,3 @@
+# Names of the imports with their versions
+# Like example:
+# pandas == 2.1.4
