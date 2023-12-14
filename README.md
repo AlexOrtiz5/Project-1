@@ -1,6 +1,6 @@
 # Project-1 Themes, Prices, and the Evolution of Sets 
 ​
-  Project status(Completed)
+  Project status (Completed)
   
 # Project objective
 ​
