@@ -95,6 +95,6 @@ This dataset is released under the CC0: Public Domain Dedication. You are free t
 If you have any questions, encounter issues, or want to contribute, please feel free to reach out.
 
 
-# Contact
-  linkedin, github, medium, etc 
+# Presentation
+  Link : https://www.canva.com/design/DAF2y-dUM0M/EpigKxZEfDYVKGjdYF-XOg/edit?utm_content=DAF2y-dUM0M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 Collapse
