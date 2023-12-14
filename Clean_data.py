@@ -14,14 +14,14 @@ def clean_lego_data(data):
         data['year'] = pd.to_datetime(data['year'], errors='coerce').dt.year
     
     # Fill missing values in 'Star rating' and 'Number of reviews' with 0
-    data['Star rating'].fillna(0, inplace=True)
-    data['Number of reviews'].fillna(0, inplace=True)
+    data['star_rating'].fillna(0, inplace=True)
+    data['number_of_reviews'].fillna(0, inplace=True)
     
     # Remove commas and convert columns to numeric types
-    data['Set Price'] = data['Set Price'].round(2)
+    data['set_price'] = data['set_price'].round(2)
     
     # Drop rows with missing 'Set Price' values
-    data.dropna(subset=['Set Price'], inplace=True)
+    data.dropna(subset=['set_price'], inplace=True)
     
     return data
 
