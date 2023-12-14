@@ -1,10 +1,12 @@
 import pandas as pd
 
+# Function to change the names of the columns
 def clean_columns_name(data):
     # Cleans the name of the columns
     data.columns = data.columns.str.lower().str.replace(' ','_')
     return data
 
+# Function to clean the data on the first csv
 def clean_lego_data(data):
     # Drop duplicates, if any
     data.drop_duplicates(inplace=True)
@@ -23,6 +25,12 @@ def clean_lego_data(data):
     # Drop rows with missing 'Set Price' values
     data.dropna(subset=['set_price'], inplace=True)
     
+    return data
+
+# Function to clean the data on the second csv
+def clean_lego_set(data):
+    data.drop_duplicates(inplace=True)
+    data.dropna(inplace=True)
     return data
 
 # Function to check for symbols in theme_name
