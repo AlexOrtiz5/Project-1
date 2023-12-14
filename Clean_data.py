@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 def clean_columns_name(data):
     # Cleans the name of the columns
