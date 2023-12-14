@@ -75,20 +75,20 @@ This dataset is released under the CC0: Public Domain Dedication. You are free t
 3. Usage:
   You can use the dataset in your code by updating the file name in the `read_csv` function. For example, if you want to     use the file provided in the repository, you can read it in Python using:
 
-  '''python
-  import pandas as pd
-  file_name = 'lego_sets.csv'
-  lego_data = pd.read_csv(file_name)'''
+  #python
+  #import pandas as pd
+  #file_name = 'lego_sets.csv'
+  #lego_data = pd.read_csv(file_name)
 
   Now you can explore and analyze the LEGO dataset!
 
   If you find any issues with the dataset or have improvements to suggest, please feel free to contribute. Follow the        standard GitHub flow:
 
-4. Fork the repository.
-  Create a new branch: git checkout -b feature/your-feature.
-  Make your changes and commit them: git commit -m 'Add your feature'.
-  Push to the branch: git push origin feature/your-feature.
-  Create a pull request.
+4. Fork the repository:
+  - Create a new branch: git checkout -b feature/your-feature.
+  - Make your changes and commit them: git commit -m 'Add your feature'.
+  - Push to the branch: git push origin feature/your-feature.
+  - Create a pull request.
 ​
 # Conclusion
   Thank you for exploring the LEGO Sets and Price Dataset! We hope this dataset proves valuable for your projects and analyses.
