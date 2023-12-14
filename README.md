@@ -75,10 +75,10 @@ This dataset is released under the CC0: Public Domain Dedication. You are free t
 3. Usage:
   You can use the dataset in your code by updating the file name in the `read_csv` function. For example, if you want to     use the file provided in the repository, you can read it in Python using:
 
-  ```python
+  '''python
   import pandas as pd
   file_name = 'lego_sets.csv'
-  lego_data = pd.read_csv(file_name)
+  lego_data = pd.read_csv(file_name)'''
 
   Now you can explore and analyze the LEGO dataset!
 
