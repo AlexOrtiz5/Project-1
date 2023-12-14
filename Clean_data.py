@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 def clean_columns_name(data):
     # Cleans the name of the columns
@@ -18,11 +19,16 @@ def clean_lego_data(data):
     data['Number of reviews'].fillna(0, inplace=True)
     
     # Remove commas and convert columns to numeric types
-    data['Set Price'] = data['Set Price'].replace(',', '', regex=True).astype(float)
-    data['Number of reviews'] = data['Number of reviews'].replace(',', '', regex=True).astype(float)
-    data['Star rating'] = data['Star rating'].replace(',', '', regex=True).astype(float)
+    data['Set Price'] = data['Set Price'].round(2)
     
     # Drop rows with missing 'Set Price' values
     data.dropna(subset=['Set Price'], inplace=True)
     
     return data
+
+# Function to check for symbols in theme_name
+def check_collaboration(theme):
+    if isinstance(theme, str) and ('™' in theme or '®' in theme):
+        return 'Collaboration'
+    else:
+        return 'Regular Theme'
