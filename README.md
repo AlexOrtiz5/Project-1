@@ -1,6 +1,7 @@
 # Project-1 Themes, Prices, and the Evolution of Sets 
 ​
-  Project status(Active, On-Hold, Completed)
+  Project status(Completed)
+  
 # Project objective
 ​
   Analyzing Trends and Factors Influencing LEGO Set Prices
