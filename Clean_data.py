@@ -1,14 +1,4 @@
 import pandas as pd
-def clean_columns_name(Lego_df):
-
-    # Cleans the name of the columns
-    Lego_df.columns = Lego_df.columns.str.lower().str.replace(' ','_')
-    return Lego_df
-
-def clean_columns_name(data):
-    # Cleans the name of the columns
-    data.columns = data.columns.str.lower().str.replace(' ','_')
-    return data
 
 # Function to change the names of the columns
 def clean_columns_name(data):
