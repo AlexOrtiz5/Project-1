@@ -1,7 +1,7 @@
 # Project-1 Themes, Prices, and the Evolution of Sets 
 ​
   Project status (Completed)
-  
+
 # Project objective
 ​
   Analyzing Trends and Factors Influencing LEGO Set Prices
@@ -37,9 +37,9 @@
   Visualization:
   1. plot(): Provides a visual depiction of data trends or relationships by creating several kinds of plots (line, bar, scatter, etc.) based on the data in a DataFrame.
   2. plt (Matplotlib): Matplotlib is a feature-rich Python visualization toolkit that can be used to create static, interactive, and animated graphics. To generate a variety of visualizations, it comes with a number of functions like plt.plot(), plt.bar(), plt.scatter(), and others.
-  
+
   These techniques offer a basic toolset for Python data manipulation and visualization, making it possible to efficiently clean, filter, aggregate, and visualize data in order to obtain insights and effectively convey findings. These techniques can be combined and applied in different orders to carry out thorough data analysis and visualization, depending on the demands of the particular project.
-# Technologies 
+# Technologies
 ​
   List with used technologies:
   - Python
@@ -56,7 +56,7 @@
   These statistics, which come from reputable LEGO data archives, provide a range of features that capture essential elements of LEGO sets, such as their structural configurations and market performance metrics. Together, the datasets include a wide range of characteristics that are essential to comprehending the complex variables affecting LEGO set prices.
 ​
   This research intends to provide insights into the themes, materials, partnerships, and set features that significantly influence pricing dynamics within the LEGO market. It does this by carefully exploring these ideas and dissecting the underlying elements that shape LEGO set costs.
-  
+
 # Steps
 
 1. LEGO Sets and Price Dataset (1955-2023):
@@ -67,7 +67,7 @@ This dataset is released under the CC0: Public Domain Dedication. You are free t
 2. Getting Started
 
 - Follow these steps to use the dataset:
- - Download the dataset from the Kaggle page: [LEGO Sets and Price Dataset] 
+ - Download the dataset from the Kaggle page: [LEGO Sets and Price Dataset]
    (https://www.kaggle.com/datasets/alessiasimone/lego-sets-and-price-1955-2023/).
  - Extract the downloaded file to the location of your choice.
  - Change the name of the extracted file from `Output.csv` to the desired name you want to use.
@@ -76,7 +76,7 @@ This dataset is released under the CC0: Public Domain Dedication. You are free t
 3. Usage:
   You can use the dataset in your code by updating the file name in the `read_csv` function. For example, if you want to     use the file provided in the repository, you can read it in Python using:
 
-  '''import pandas as pd, 
+  '''import pandas as pd,
   file_name = 'lego_sets.csv',
   lego_data = pd.read_csv(file_name)'''
 
@@ -97,6 +97,3 @@ If you have any questions, encounter issues, or want to contribute, please feel 
 
 # Presentation
   Link : https://www.canva.com/design/DAF2y-dUM0M/EpigKxZEfDYVKGjdYF-XOg/edit?utm_content=DAF2y-dUM0M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
-  
-
